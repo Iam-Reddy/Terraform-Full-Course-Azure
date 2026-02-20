@@ -29,7 +29,7 @@ stages:
         workingDirectory: '$(System.DefaultWorkingDirectory)/terraform/dev'
         backendServiceArm: 'Azure-Service-Connection'
         backendAzureRmResourceGroupName: 'terraform-state-rg'
-        backendAzureRmStorageAccountName: 'tfstatedev2024'
+        backendAzureRmStorageAccountName: 'tfstatedev2026'
         backendAzureRmContainerName: 'tfstate'
         backendAzureRmKey: 'dev.terraform.tfstate'
     
